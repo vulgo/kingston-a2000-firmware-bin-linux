@@ -1,0 +1,21 @@
+1)Ensure linux distribution has latest nvme-cli installed
+
+2)Gain root access sudo -s 
+
+3)Copy the binary zip file attached into a local directory
+
+3)Extract the zip file that contains the firmware binary. 
+
+4)Execute fw-download command to prestage the firmware for commit. Note: Use the "S5Z42109.bin" binary file
+
+nvme fw-download /dev/nvme[device] --fw=[S5Z42109.bin]
+
+5) Activate the firmware: nvme fw-activate /dev/nvme[device] --slot=1 --action=1
+
+6) Reboot the system
+
+7) Issue the following command to verify that the firmware is committed:
+
+nvme id-ctrl /dev/nvme[device]
+
+
