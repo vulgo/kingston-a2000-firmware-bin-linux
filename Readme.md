@@ -1,3 +1,5 @@
+To receive the firmware directly from Kingston, contact them via the form at [www.kingston.com/support/technical/emailsupport](https://www.kingston.com/support/technical/emailsupport)
+
 # Firmware Release Notes
 
 ## S5Z42109 (03-30-2021)
